@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LaboratorioCalificado02</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="ocultar">Ocultar</string>
+    <string name="title_registro_pedidos">Registro de pedidos</string>
+    <string name="hint_nombre_cliente">Nombre del cliente</string>
+    <string name="hint_numero_cliente">Número Cliente</string>
+    <string name="hint_productos">Productos</string>
+    <string name="hint_ciudad">Ciudad</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="btn_llamar">Llamar</string>
+    <string name="btn_whatsapp">WhatsApp</string>
+    <string name="btn_maps">MAPS</string>
+    <string name="error_empty_fields">Por favor, rellene todos los campos.</string>
+    <string name="error_ingrese_numero">Por favor, ingrese el número del cliente.</string>
+    <string name="error_complete_campos">Por favor, complete todos los campos antes de enviar un mensaje.</string>
+    <string name="error_ingrese_direccion">Por favor, ingrese la dirección.</string>
+    <string name="mensaje_whatsapp">Hola %1$s, Tus productos: %2$s están en camino a la dirección: %3$s</string>
+    <string name="title_pedido">Pedido</string>
+    <string name="nombre_cliente">Nombre del cliente: %1$s</string>
+    <string name="numero_cliente">Número Cliente: %1$s</string>
+    <string name="productos">Productos: %1$s</string>
+    <string name="ciudad">Ciudad: %1$s</string>
+    <string name="direccion">Dirección: %1$s</string>
+</resources>
+
+
