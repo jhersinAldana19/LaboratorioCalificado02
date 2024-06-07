@@ -49,4 +49,3 @@ class Ejercicio02 : AppCompatActivity() {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 }
-
