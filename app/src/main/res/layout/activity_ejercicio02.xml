@@ -6,157 +6,78 @@
     android:layout_height="match_parent"
     tools:context=".Ejercicio02">
 
-<<<<<<< HEAD
     <ImageView
         android:id="@+id/imageViewIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-    app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     android:layout_margin="16dp" />
-=======
-    <TextView
-        android:id="@+id/titleTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/title_registro_pedidos"
-        android:textSize="24sp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:paddingTop="16dp"/>
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
 
     <EditText
         android:id="@+id/edtName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:hint="@string/name_hint"
-        android:drawableLeft="@drawable/user"
+        android:src="@drawable/user"
         app:layout_constraintTop_toBottomOf="@id/imageViewIcon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp"
         android:padding="16dp" />
-=======
-        android:hint="@string/hint_nombre_cliente"
-        android:inputType="textPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
 
     <EditText
         android:id="@+id/edtNumber"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:hint="@string/number_hint"
+        android:src="@drawable/phone"
         app:layout_constraintTop_toBottomOf="@id/edtName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:drawableLeft="@drawable/phone"
         android:padding="16dp" />
-=======
-        android:hint="@string/hint_numero_cliente"
-        android:inputType="phone"
-        app:layout_constraintTop_toBottomOf="@+id/edtName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
 
     <EditText
         android:id="@+id/edtProducts"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:hint="@string/products_hint"
+        android:src="@drawable/productos"
         app:layout_constraintTop_toBottomOf="@id/edtNumber"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:drawableLeft="@drawable/productos"
         android:padding="16dp" />
-=======
-        android:hint="@string/hint_productos"
-        android:inputType="text"
-        app:layout_constraintTop_toBottomOf="@+id/edtNumber"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
 
     <EditText
         android:id="@+id/edtCity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:hint="@string/city_hint"
+        android:src="@drawable/city"
         app:layout_constraintTop_toBottomOf="@id/edtProducts"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:drawableLeft="@drawable/city"
         android:padding="16dp" />
-=======
-        android:hint="@string/hint_ciudad"
-        android:inputType="text"
-        app:layout_constraintTop_toBottomOf="@+id/edtProducts"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
 
     <EditText
         android:id="@+id/edtAddress"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:hint="@string/address_hint"
+        android:src="@drawable/maps"
         app:layout_constraintTop_toBottomOf="@id/edtCity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:drawableLeft="@drawable/maps"
         android:padding="16dp" />
-=======
-        android:hint="@string/hint_direccion"
-        android:inputType="textPostalAddress"
-        app:layout_constraintTop_toBottomOf="@+id/edtCity"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
 
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:text="@string/register_button_text"
     app:layout_constraintTop_toBottomOf="@id/edtAddress"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     android:padding="16dp" />
-=======
-        android:text="@string/btn_registrar"
-        app:layout_constraintTop_toBottomOf="@+id/edtAddress"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"/>
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 

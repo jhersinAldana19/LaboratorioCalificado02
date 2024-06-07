@@ -7,94 +7,62 @@
     android:layout_height="match_parent"
     tools:context=".Ejercicio01">
 
-    <TextView
-        android:id="@+id/titleTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Examen Calificado 02"
-        android:textSize="24sp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:paddingTop="16dp"/>
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Examen Calificado 02"
+            android:textSize="24sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingTop="16dp"/>
 
-<<<<<<< HEAD
-    <!-- Cuadro verde -->
-=======
-    <!-- Cuadrito verde -->
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
-    <View
-        android:id="@+id/greenView"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-<<<<<<< HEAD
-        android:background="#006400"
-=======
-        android:background="#00FF00"
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
-        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/bottomGuideline"
-        android:layout_marginTop="16dp"
-        android:visibility="visible"/>
+        <!-- Cuadro verde -->
+        <View
+            android:id="@+id/greenView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#006400"
+            app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/bottomGuideline"
+            android:layout_marginTop="16dp"
+            android:visibility="visible"/>
 
-<<<<<<< HEAD
-    <!-- Guía inferior -->
-=======
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/bottomGuideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.8" />
-<<<<<<< HEAD
+        <!-- Guía inferior -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/bottomGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.8" />
 
-    <!-- Botón Mostrar -->
-=======
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
-    <Button
-        android:id="@+id/showButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:text="Mostrar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/hideButton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"/>
+        <!-- Botón Mostrar -->
+        <Button
+            android:id="@+id/showButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Mostrar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/hideButton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"/>
 
-    <!-- Botón Ocultar -->
-=======
-        android:text="@string/mostrar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/hideButton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"/>
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
-    <Button
-        android:id="@+id/hideButton"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:text="Ocultar"
-=======
-        android:text="@string/ocultar"
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
-        app:layout_constraintStart_toEndOf="@+id/showButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"/>
+        <!-- Botón Ocultar -->
+        <Button
+            android:id="@+id/hideButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ocultar"
+            app:layout_constraintStart_toEndOf="@+id/showButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-<<<<<<< HEAD
-
-=======
->>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
