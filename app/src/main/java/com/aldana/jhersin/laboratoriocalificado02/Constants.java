@@ -19,7 +19,5 @@ public class Constants {
     public static final int MAX_PRODUCTS = 10;
     public static final double SHIPPING_COST = 5.99;
 
-    // URLs
-    public static final String API_BASE_URL = "https://api.example.com/";
 
 }
