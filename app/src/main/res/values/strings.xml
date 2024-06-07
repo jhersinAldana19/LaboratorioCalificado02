@@ -9,6 +9,10 @@
     <string name="hint_ciudad">Ciudad</string>
     <string name="hint_direccion">Dirección</string>
     <string name="btn_registrar">Registrar Pedido</string>
+<<<<<<< HEAD
+=======
+    <string name="error_empty_fields">Por favor, complete todos los campos.</string>
+>>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
     <string name="title_pedido">Pedido</string>
     <string name="lbl_nombre_cliente">Nombre del Cliente:</string>
     <string name="lbl_numero_cliente">Número del Cliente:</string>
@@ -19,6 +23,7 @@
     <string name="error_complete_campos">Por favor, complete todos los campos necesarios.</string>
     <string name="error_ingrese_direccion">Por favor, ingrese una dirección válida.</string>
     <string name="mensaje_whatsapp">Hola %1$s, tus productos: %2$s están en camino a la dirección: %3$s</string>
+<<<<<<< HEAD
     <string name="register_button_text">Registrar</string>
     <string name="city_hint">Ciudad</string>
     <string name="products_hint">Productos</string>
@@ -35,3 +40,8 @@
 
 
 
+=======
+</resources>
+
+
+>>>>>>> 6006dfd2fc917166038a8b9e60c836852cd545a8
